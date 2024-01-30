@@ -1,13 +1,16 @@
 import React from 'react'
 
-function Button() {
-  return (
-    <div>
 
-      <button onClick>Button</button>
+
+const Searchbar = () => {
+  return (
+    <div className="input-wrapper">
       
+      <input placeholder="Type to search.." />
+   
+        
     </div>
   )
 }
 
-export default Button
+export default Searchbar

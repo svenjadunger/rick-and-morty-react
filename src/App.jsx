@@ -1,19 +1,18 @@
 import { useState } from 'react'
 
 import './App.css'
-import Button from './components/Searchbar/Searchbar'
 import Header from './components/Header/Header'
+import Searchbar from './components/Searchbar/Searchbar'
 
 
 function App() {
   return (
     <>
       <Header />
-                    <h1>Hello World</h1>
-      <Button />
+      <h1>Hello World</h1>
       <div className="App">
         <div className="search-bar-container">
-          <div>Searchbar</div>
+          <Searchbar />
           <div>SearchResults</div>
              </div>
       </div>
