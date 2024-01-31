@@ -7,7 +7,7 @@ const FlipCard = ({ character }) => {
     <div className="flip-card">
       <div className="flip-card-inner">
         <div className="flip-card-front">
-          <img src={character.image} alt={character.name} style={{width: '300px', height: '300px'}} />
+          <img src={character.image} alt={character.name} style={{width: '200px', height: '200px'}} />
         </div>
         <div className="flip-card-back">
           <h1>{character.name}</h1>
