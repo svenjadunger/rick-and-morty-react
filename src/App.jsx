@@ -1,9 +1,8 @@
-import { useState } from 'react'
-
-import './App.css'
-import Header from './components/Header/Header'
-import Searchbar from './components/Searchbar/Searchbar'
-
+import React from 'react';
+import Header from './components/Header/Header';
+import Searchbar from './components/Searchbar/Searchbar';
+import FlipCard from './components/Card/FlipCard'; 
+import './App.css';
 
 function App() {
   return (
@@ -13,14 +12,11 @@ function App() {
       <div className="App">
         <div className="search-bar-container">
           <Searchbar />
-          <div>SearchResults</div>
-             </div>
+        </div>
+        <FlipCard /> 
       </div>
     </>
-  )
+  );
 }
 
-export default App
-
-
-
+export default App;
