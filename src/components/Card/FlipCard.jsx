@@ -2,6 +2,7 @@
 import React from 'react';
 import './FlipCard.css';
 
+
 const FlipCard = ({ character }) => {
   return (
     <div className="flip-card">

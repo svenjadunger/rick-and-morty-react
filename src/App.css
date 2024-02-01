@@ -1,12 +1,13 @@
 .App {
-  background-color:rgb(134, 55, 55) ;
+  background-color:rgb(134, 55, 55);
   height: 100vh;
   width: 100vw;
 }
 
-.Header {
-  background-color: rgb(134, 55, 55);
+.header{
+  background-color: white;
 }
+
 
 .search-bar-container {
 padding-top: 0vh;
