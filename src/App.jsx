@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <Header />
-      <h1>Hello World</h1>
+      <h1></h1>
       <div className="App">
         <div className="search-bar-container">
           <Searchbar />
