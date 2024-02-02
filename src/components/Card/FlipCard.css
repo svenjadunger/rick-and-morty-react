@@ -49,7 +49,7 @@ body {
 
 
 .flip-card-back {
-  background-color: white;
+  background-color: #FFE4C4;
   color: black;
   transform: rotateY(180deg);
 }
