@@ -2,8 +2,10 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div></div>
+    <div className="boxOne"></div>
   )
 }
 
 export default Header
+
+

@@ -4,6 +4,7 @@ import Searchbar from './components/Searchbar/Searchbar';
 import FlipCard from './components/Card/FlipCard'; 
 import './App.css';
 
+
 function App() {
   const [characters, setCharacters] = useState([]);
 
@@ -19,11 +20,16 @@ function App() {
   return (
     <>
       <Header />
+      <div className="navbar-container"> 
+    <div className="search-bar-container">
+      <Searchbar />
+    </div>
+  </div>
       <h1></h1>
       <div className="App">
-        <div className="search-bar-container">
+        {/* <div className="search-bar-container">
           <Searchbar />
-        </div>
+        </div> */}
         {characters.map((character) => (
           <FlipCard key={character.id} character={character} />
         ))}
