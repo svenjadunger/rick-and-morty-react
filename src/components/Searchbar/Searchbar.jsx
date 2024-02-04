@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Searchbar.css';
 
+
+
 const Searchbar = () => {
   const [query, setQuery] = useState('');
   const [characters, setCharacters] = useState([]);
@@ -53,5 +55,7 @@ const Searchbar = () => {
     </div>
   );
 };
+
+
 
 export default Searchbar;
