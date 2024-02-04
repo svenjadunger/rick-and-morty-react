@@ -10,7 +10,7 @@ const Searchbar = () => {
     const input = e.target.value;
     setQuery(input); // actualizes the searchtext
 
-    // case sensitivity
+    // case insensitivity
     const searchQuery = input.toLowerCase();
 
     if (searchQuery) {
