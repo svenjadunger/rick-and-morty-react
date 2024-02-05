@@ -9,8 +9,11 @@ body, html {
 
 .App {
   background-color: #CD5C5C;
-  min-height: 200vh;
-  padding-bottom: 50px; 
+    position: relative;
+    min-height: 100vh; 
+    padding-bottom: 60px; 
+
+   
 }
 
 
@@ -28,12 +31,7 @@ body, html {
 }
 
 
-.pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px; 
-}
+
 
 .pagination button {
   padding: 10px 20px;
@@ -46,6 +44,10 @@ body, html {
   transition: background-color 0.2s ease;
 }
 
+
+
 .pagination button:hover {
   background-color: #0056b3;
 }
+
+

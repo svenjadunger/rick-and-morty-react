@@ -3,7 +3,7 @@ import "./FlipCard.css";
 
 const FlipCard = ({ character }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-
+//open or closed
   const toggleModal = () => setIsModalOpen(!isModalOpen);
 
   return (

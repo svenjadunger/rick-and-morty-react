@@ -5,6 +5,7 @@ import './Searchbar.css';
 
 const Searchbar = () => {
   const [query, setQuery] = useState('');
+  //storing
   const [characters, setCharacters] = useState([]);
 
   // this function is called if user types in searchbar
